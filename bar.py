@@ -2,17 +2,17 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv(r"C:\Users\aswin\OneDrive\Desktop\Practice\ds pro\data\train.csv")
+df = pd.read_csv(r"C:\Users\aswin\OneDrive\Desktop\Practice\PRODIGY_DS_TASK\data\train.csv")
 
-# plt.figure(figsize=(10,6))
+plt.figure(figsize=(10,6))
 
-# sns.histplot(df['Age'], bins=20, kde=True)
+sns.histplot(df['Age'], bins=20, kde=True)
 
-# plt.title("Age Distribution of Titanic Passengers")
-# plt.xlabel("Age")
-# plt.ylabel("Count")
+plt.title("Age Distribution of Titanic Passengers")
+plt.xlabel("Age")
+plt.ylabel("Count")
 
-# plt.show()
+plt.show()
 
 
 plt.figure(figsize=(8,5))
