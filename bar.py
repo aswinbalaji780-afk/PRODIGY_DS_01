@@ -1,8 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
-df = pd.read_csv(r"C:\Users\aswin\OneDrive\Desktop\Practice\PRODIGY_DS_TASK\data\train.csv")
+csv_path = os.path.join('..', 'data', 'train.csv')
+df = pd.read_csv(csv_path)
 
 plt.figure(figsize=(10,6))
 
