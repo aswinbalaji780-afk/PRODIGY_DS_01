@@ -66,4 +66,4 @@ This project helped in understanding the basics of Exploratory Data Analysis (ED
 
 ## Author
 
-Aswin Balaji
+Aswinbalaji
